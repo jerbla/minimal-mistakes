@@ -1,0 +1,1 @@
+---2layout: default3---45<h1>{{ page.title }}</h1>6<ul class="posts">78          {% for post in site.posts %}9            <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>10          {% endfor %}11        </ul>12
